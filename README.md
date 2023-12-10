@@ -1,4 +1,4 @@
-# performnance-recorder
+# performance-recorder
 
 ## Usage
 
