@@ -1,4 +1,4 @@
-import { PerformanceRecorder, PerformanceRenderer, renderExecutionTime, renderFramerate } from "../../lib";
+import { PerformanceRecorder, PerformanceRenderer, renderExecutionTime, renderFramerate } from "@remvst/client-performance";
 
 interface Rectangle {
     x: number;

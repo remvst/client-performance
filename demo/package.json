@@ -1,5 +1,5 @@
 {
-    "name": "@remvst/performance-recorder-demo",
+    "name": "@remvst/client-performance-demo",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -21,7 +21,7 @@
         "webpack-merge": "^5.8.0"
     },
     "dependencies": {
-        "@remvst/performance-recorder": "file:..",
+        "@remvst/client-performance": "file:..",
         "ts-loader": "^9.2.6",
         "typescript": "^5.2.2"
     }
