@@ -1,0 +1,16 @@
+{
+    "name": "@remvst/client-performance",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "keywords": [],
+    "author": "Rémi Vansteelandt",
+    "license": "UNLICENSED",
+    "scripts": {
+      "build": "rm -rf lib && tsc",
+      "prepublishOnly": "npm i && npm run build"
+    },
+    "dependencies": {
+        "typescript": "^5.2.2"
+    }
+}
