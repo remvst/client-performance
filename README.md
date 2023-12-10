@@ -1,4 +1,4 @@
-# performance-recorder
+# client-performance
 
 ## Usage
 
