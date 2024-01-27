@@ -1,21 +1,21 @@
 {
-  "name": "@remvst/client-performance",
-  "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.js",
-  "keywords": [],
-  "author": "Rémi Vansteelandt",
-  "license": "UNLICENSED",
-  "scripts": {
-    "prettier:fix": "prettier . --write",
-    "prettier:check": "prettier . --check",
-    "build": "rm -rf lib && tsc",
-    "prepublishOnly": "npm i && npm run build",
-    "test": "npm run prettier:check && npm run build"
-  },
-  "devDependencies": {
-    "prettier": "3.1.1",
-    "prettier-plugin-organize-imports": "^3.2.4",
-    "typescript": "^5.2.2"
-  }
+    "name": "@remvst/client-performance",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "keywords": [],
+    "author": "Rémi Vansteelandt",
+    "license": "UNLICENSED",
+    "scripts": {
+        "prettier:fix": "prettier . --write",
+        "prettier:check": "prettier . --check",
+        "build": "rm -rf lib && tsc",
+        "prepublishOnly": "npm i && npm run build",
+        "test": "npm run prettier:check && npm run build"
+    },
+    "devDependencies": {
+        "prettier": "3.1.1",
+        "prettier-plugin-organize-imports": "^3.2.4",
+        "typescript": "^5.2.2"
+    }
 }
